@@ -20,8 +20,13 @@
     "plugin-market"
   ],
   "license": "MIT",
-  "peerDependencies": {
-    "@deepseek-ai/cordis": "~4.1.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldq0102261819/dsh-market-seed.git"
+  },
+  "homepage": "https://github.com/ldq0102261819/dsh-market-seed#readme",
+  "bugs": {
+    "url": "https://github.com/ldq0102261819/dsh-market-seed/issues"
   },
   "dsh": {
     "bundle": {
