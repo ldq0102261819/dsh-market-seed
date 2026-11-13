@@ -1,0 +1,13 @@
+# One row: this bundle also carries the host plugin, the way dsh-plugin-manager
+# is both a bundle and the module its row loads.
+#
+# The third source is a GitHub-hosted index (raw.githubusercontent.com); swap the
+# owner/repo for your own index repository if you publish one.
+- insert:
+    - id: market-seed
+      name: 'dsh-market-seed'
+      config:
+        indexes:
+          - https://fastly.jsdelivr.net/npm/dsh-plugin-catalog/index.json
+          - https://dshopen.org/index.json
+          - https://raw.githubusercontent.com/tacyzo/dsh-plugins/main/index.json
